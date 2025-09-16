@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package tools;
+import java.util.Date;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JOptionPane;
@@ -35,6 +36,32 @@ public class Util {
     }
     public static void perguntar(String cad){
         JOptionPane.showConfirmDialog(null, cad);
+        //return true;
      
     }
+    public static int strToInt(String num) {
+        return Integer.valueOf(num);
+    }
+    
+    public static String intoStr(int num) {
+        return String.valueOf(num);
+    }
+    public static String strToDouble(int num) {
+        return null;
+    }
+    public static String doubleToStr(double num) {
+        return "";
+    }
+    public static Date strToDaTEe(String data) {
+        return null;
+        
+    }
+    public static String dateToStr(Date dara) {
+        return "";
+        
+    }
+    
+    //primeiro commit - pacotes tools e view. Util.java Finalizado
+    //segundo commit - tela principal e telas dos cadastros finalizados
+    // terceiro commit  - telas de cadastros usando o util.ja 
 }
